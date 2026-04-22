@@ -69,7 +69,7 @@ model.Fit(series);
 var forecast = model.Forecast(steps: 5);
 foreach (var (mean, volatility) in forecast)
 {
-    Console.WriteLine($"mean={mean:F4}, vol={volatility:F4}");
+    Console.WriteLine($"mean={{mean:F4}}, vol={{volatility:F4}}");
 }
 
 var standardizedResiduals = model.GetStandardizedResiduals();
@@ -85,4 +85,4 @@ var bic = model.ComputeBIC();
 - [MathNet.Numerics](https://www.nuget.org/packages/MathNet.Numerics)
 
 ## License
-No license file is currently present in the repository. If you intend others to use this library, consider adding a LICENSE (MIT/Apache-2.0/etc.).
+This project is licensed under the **MIT License**. See the `LICENSE` file at the repository root for details.
