@@ -6,6 +6,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{827E0CD3-B72
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MATTAR.TimeSeriesAnalysis", "src\MATTAR.TimeSeriesAnalysis.csproj", "{9F182700-9CE8-29DC-0B83-33F3070879E9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MATTAR.TimeSeriesAnalysis.Samples", "samples\MATTAR.TimeSeriesAnalysis.Samples\MATTAR.TimeSeriesAnalysis.Samples.csproj", "{B2C3D4E5-F6A7-8901-BCDE-F12345678901}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -16,12 +20,17 @@ Global
 		{9F182700-9CE8-29DC-0B83-33F3070879E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F182700-9CE8-29DC-0B83-33F3070879E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F182700-9CE8-29DC-0B83-33F3070879E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2C3D4E5-F6A7-8901-BCDE-F12345678901}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2C3D4E5-F6A7-8901-BCDE-F12345678901}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2C3D4E5-F6A7-8901-BCDE-F12345678901}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2C3D4E5-F6A7-8901-BCDE-F12345678901}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{9F182700-9CE8-29DC-0B83-33F3070879E9} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{B2C3D4E5-F6A7-8901-BCDE-F12345678901} = {A1B2C3D4-E5F6-7890-ABCD-EF1234567890}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {95044FA9-BCD1-4443-A6E5-FB457055C69B}
